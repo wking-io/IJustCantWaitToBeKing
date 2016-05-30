@@ -1,9 +1,12 @@
 .nav {
+  &__title {
+    font-size: 72px;
+  }
   &__links {
     list-style-type: none;
     & li {
       display: inline;
-      padding: 0 1.25em;
+      padding: 0 .75em;
     }
     & li a {
       text-decoration: none;
