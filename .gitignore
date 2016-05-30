@@ -43,3 +43,6 @@ Temporary Items
 ### Jade Issue with Codekit ###
 
 jadefiles/*.html
+
+### PSD ###
+*/**/*.psd
