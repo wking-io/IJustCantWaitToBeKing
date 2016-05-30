@@ -1,0 +1,12 @@
+.registry {
+  &__title {
+    margin: 1em 0 30px 0;
+  }
+  &__divider {
+    @include divider(#ddd);
+  }
+  &__shadowBox {
+    margin-top: 1em;
+    position: relative;
+  }
+}

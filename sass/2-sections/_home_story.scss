@@ -1,0 +1,33 @@
+.story {
+  padding-bottom: 4em;
+  &__title {
+    margin: 0;
+    padding-top: 1em;
+  }
+  &__divider {
+    @include divider(#ddd);
+  }
+  &__content {
+    opacity: 0.87;
+    & span {
+      display: inline-block;
+      font-size: 24px;
+      font-family: $sans;
+      font-weight: lighter;
+      line-height: 1.4;
+      padding-bottom: 0.5em;
+      text-indent: -5px;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: $S) {
+  .story {
+    &__content {
+      & span {
+        font-size: 22px;
+      }
+    }
+  }
+}

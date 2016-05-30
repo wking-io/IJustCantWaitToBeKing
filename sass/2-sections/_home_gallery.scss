@@ -1,0 +1,12 @@
+.gallery {
+  padding: 0 0 90px 0;
+  &__title {
+    margin: 1em 0 30px 0;
+  }
+  &__divider {
+    @include divider(#ddd);
+  }
+  &__images {
+    margin: 0;
+  }
+}

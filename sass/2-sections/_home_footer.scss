@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  height: 4rem;
+  background: $primary-color;
+  text-align: center;
+  & p {
+    color: $text-color-light;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: $sans;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

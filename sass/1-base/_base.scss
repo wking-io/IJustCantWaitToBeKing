@@ -1,0 +1,52 @@
+*, *::after, *::before {
+	@include box-sizing(border-box);
+}
+h1,h2,h3,h4,h5,h6,p,span,div {
+  @include font-smoothing;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: modular-scale(6);
+  font-family: $display;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: modular-scale(6);
+  font-family: $display;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: modular-scale(2);
+  font-family: $sans;
+}
+
+h4 {
+  font-size: modular-scale(1);
+  font-family: $serif;
+}
+
+p {
+  font-size: modular-scale(0);
+  font-family: $serif;
+}
+
+@media (max-width: 1024px) {
+  html {
+  font-size: 14px;
+  }
+  p {
+    line-height: 1.45;
+  }
+}
+
+@media (max-width: $S) {
+  h2 {
+    font-size: modular-scale(5);
+  }
+}

@@ -1,0 +1,27 @@
+// fonts
+
+$sans: 'Raleway', sans-serif;
+$serif: 'Roboto Slab', serif;
+$display: 'still-shine', sans-serif;
+
+// colors
+
+$primary-color: #3D6040;
+$primary-dark: shade($primary-color, 50%);
+$accent-color: #933B37;
+$accent-dark: shade($accent-color, 25%);
+$text-color-dark: $primary-color;
+$text-color-light: rgba(#fff, 0.87);
+$bg-color: #fff;
+$bg-color-dark: $primary-color;
+$link-color: $accent-color;
+$btn-color: $accent-color;
+$btn-hover: $accent-dark;
+$error-color: #EF233C;
+$success-color: #06D6A0;
+
+// breakpoints
+
+$S:     430px;
+$M:     820px;
+$L:     1170px;
