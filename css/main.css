@@ -601,12 +601,22 @@ p {
     margin: 0 auto 3em auto;
     border-radius: 1px; }
   /* line 12, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
+  .party__bridesmaids, .party__groomsmen {
+    padding: 0 2em; }
+    /* line 15, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
+    .party__bridesmaids h3, .party__groomsmen h3 {
+      font-size: 1.5rem;
+      margin: 1.33em 0 .33em 0; }
+    /* line 19, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
+    .party__bridesmaids p, .party__groomsmen p {
+      margin-top: 0; }
+  /* line 23, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
   .party__munchkins {
     margin: 60px 0 0 0; }
-    /* line 15, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
+    /* line 26, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
     .party__munchkins li {
       padding: 0 0 5px 0; }
-  /* line 19, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
+  /* line 30, /Users/willking/sites/IJustCantWaitToBeKing/sass/2-sections/_home_party.scss */
   .party h3, .party p, .party h4, .party ul {
     color: #fff; }
 

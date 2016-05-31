@@ -9,6 +9,17 @@
   &__divider {
     @include divider(white);
   }
+  &__bridesmaids, &__groomsmen {
+    padding: 0 2em;
+
+    & h3 {
+      font-size: 1.5rem;
+      margin: 1.33em 0 .33em 0;
+    }
+    & p {
+      margin-top: 0;
+    }
+  }
   &__munchkins {
     margin: 60px 0 0 0;
 
