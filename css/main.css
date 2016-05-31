@@ -9,7 +9,7 @@ html {
   box-sizing: inherit; }
 
 @font-face {
-  font-family: 'still_shine';
+  font-family: 'still-shine';
   src: url("still_shine-webfont.eot");
   src: url("still_shine-webfont.eot?#iefix") format("embedded-opentype"), url("still_shine-webfont.woff2") format("woff2"), url("still_shine-webfont.woff") format("woff"), url("still_shine-webfont.ttf") format("truetype"), url("still_shine-webfont.svg#still_shineregular") format("svg");
   font-weight: normal;
@@ -426,13 +426,13 @@ html {
 /* line 12, /Users/willking/sites/IJustCantWaitToBeKing/sass/1-base/_base.scss */
 h1 {
   font-size: 5.6102329749em;
-  font-family: "still_shine", sans-serif;
+  font-family: "still-shine", sans-serif;
   font-weight: normal; }
 
 /* line 18, /Users/willking/sites/IJustCantWaitToBeKing/sass/1-base/_base.scss */
 h2 {
   font-size: 5.6102329749em;
-  font-family: "still_shine", sans-serif;
+  font-family: "still-shine", sans-serif;
   font-weight: normal; }
 
 /* line 24, /Users/willking/sites/IJustCantWaitToBeKing/sass/1-base/_base.scss */
