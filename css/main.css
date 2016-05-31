@@ -10,8 +10,8 @@ html {
 
 @font-face {
   font-family: 'still-shine';
-  src: url("still_shine-webfont.eot");
-  src: url("still_shine-webfont.eot?#iefix") format("embedded-opentype"), url("still_shine-webfont.woff2") format("woff2"), url("still_shine-webfont.woff") format("woff"), url("still_shine-webfont.ttf") format("truetype"), url("still_shine-webfont.svg#still_shineregular") format("svg");
+  src: url("../fonts/still_shine-webfont.eot");
+  src: url("../fonts/still_shine-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/still_shine-webfont.woff2") format("woff2"), url("../fonts/still_shine-webfont.woff") format("woff"), url("../fonts/still_shine-webfont.ttf") format("truetype"), url("../fonts/still_shine-webfont.svg#still_shineregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
