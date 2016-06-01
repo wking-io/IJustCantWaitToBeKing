@@ -1,4 +1,7 @@
 .hero {
+  & .parent {
+    text-align: center;
+  }
   &__img {
     background: #eee;
     border: 1.25em solid #fff;
@@ -20,6 +23,13 @@
   }
   &__map {
     margin: 25px 0;
+  }
+  &__links {
+    display: inline;
+    font-family: $serif;
+    font-size: 18px;
+    padding: 5px 0;
+    color: $accent-color;
   }
 }
 
